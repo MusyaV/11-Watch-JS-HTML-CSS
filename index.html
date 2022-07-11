@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" onload="init(evt)">
+        <circle fill="black" cx="6" cy="6" r="6" />
+        <circle fill="white" cx="6" cy="6" r="5.5" />
+
+        <line id="hours" x1="0" y1="0" x2="0" y2="4" stroke-linecap="round" stroke-width="0.7" stroke="black"
+            transform="translate(6,6) rotate(180 0 0) " />
+        <line id="minutes" x1="0" y1="0" x2="0" y2="5" stroke-linecap="round" stroke-width="0.7" stroke="gray"
+            transform="translate(6,6) rotate(258 0 0) " />
+        <line id="seconds" x1="0" y1="0" x2="0" y2="5" stroke-linecap="round" stroke-width="0.4" stroke="violet"
+            transform="translate(6,6) rotate(310 0 0) " />
+    </svg>
+</body>
+
+</html>
